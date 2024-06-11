@@ -1,0 +1,70 @@
+body {
+    background-color: #212121; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333; /* Fondo gris claro para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #4CAF50; /* Botón verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list-group-item {
+    background-color: #455a64; /* Fondo gris oscuro para la lista */
+    color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.list-group-item .btn-danger {
+    float: right; /* Botón eliminar a la derecha */
+}
+
+.list-group-item .form-control {
+    width: auto; /* Ajustar ancho del input */
+    margin-right: 5px; /* Espacio entre el input y el botón */
+}
+
+.historialDados {
+    resize: none; /* Evitar que el textarea se pueda redimensionar */
+    overflow-y: auto; /* Permitir scroll vertical si el contenido supera la altura */
+}
+
+/* Puedes agregar estilos adicionales para personalizar la apariencia de los elementos */
