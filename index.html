@@ -33,19 +33,22 @@
             <div class="col-md-6">
                 <h2>Lanzar Dados</h2>
 
-                <div class="mb-3">
-                    <label for="tipoDado" class="form-label">Tipo de Dado:</label>
-                    <select id="tipoDado" class="form-control">
+                <div class="form-group">
+                    <label for="tiposDados">Tipos de Dados:</label>
+                    <select multiple class="form-control" id="tiposDados">
                         <option value="d4">d4</option>
                         <option value="d6">d6</option>
                         <option value="d8">d8</option>
                         <option value="d10">d10</option>
                         <option value="d12">d12</option>
                         <option value="d20">d20</option>
+                        <option value="d3">d3</option>
+                        <option value="d100">d100</option>
                     </select>
                 </div>
-                <div class="mb-3">
-                    <label for="cantidadDados" class="form-label">Cantidad de Dados:</label>
+                
+                <div class="form-group">
+                    <label for="cantidadDados">Cantidad de Dados:</label>
                     <input type="number" class="form-control" id="cantidadDados" value="1">
                 </div>
                 <button type="button" class="btn btn-success" onclick="lanzarDados()">Lanzar Dados</button>
